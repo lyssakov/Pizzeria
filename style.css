@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#inicial {
+    color: red;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+nav{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav a:hover{
+    border-bottom: 1px solid black;
+    margin: 2rem;
+    padding-bottom: 1rem;
+    transition: 1s;
+}
+
+section h2{
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+    max-width: 20%;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 7px 10px 13px;
+    margin: 1rem;
+}
+#intro{
+    margin-bottom: 4rem;
+}
+
+
+#vegetal{
+    text-align: center;
+    font-size: 200%;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin: 0 7rem;
+}
+
+#price{
+    font-size: x-large;
+    font-style:italic
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    background-color: rgb(223, 222, 222);
+    height: 2.3rem;
+    padding: 0.5rem;
+    padding-right: 10rem;
+    font-size: 100%;
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+#añadir{
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    font-size: 140%;
+    text-align: center;
+}
+#texto{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#principal{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+#pizza{
+    margin: 4rem;
+    max-width: 25rem; 
+}
+#añadir{
+    box-shadow: 5px 5px 5px;
+}
+#añadir:hover {
+    box-shadow: 0px 0px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+#foto a{
+    color: black;
+    text-decoration: none;
+}
+@media all and (max-width: 800px) {
+header{
+    display: block;
+}
+header h1{
+    text-align: center;
+}
+header nav{
+    width: 100%;
+    justify-content: center;
+}
+section h2{
+    display: none;
+}
+#pizza{
+    max-width: 85%;
+    justify-content: center;
+}
+#principal{
+    display: block;
+}
+   }
